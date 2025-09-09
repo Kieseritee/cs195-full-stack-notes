@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+/* Box model example */
+.box {
+  margin: 40px;                /* space outside */
+  border: 10px solid #0077b6;  /* visible edge */
+  padding: 20px;               /* space inside */
+  background-color: #caf0f8;   /* makes padding visible */
+  color: #03045e;
+}
+
+/* Flexbox example */
+.flex-demo {
+  display: flex;
+  gap: 20px;                   /* space between items */
+  margin-top: 50px;
+  border: 2px dashed #6c757d;
+  padding: 15px;
+}
+
+.flex-item {
+  background-color: #90e0ef;
+  padding: 20px;
+  border: 5px solid #00b4d8;
+  flex: 1;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* or column */
+}
+
+
